@@ -2,7 +2,7 @@
   <div>
     demo01
     <svg-icon icon-class="user" style="color: red;" />
-</div>
+  </div>
 </template>
 
 <script>
