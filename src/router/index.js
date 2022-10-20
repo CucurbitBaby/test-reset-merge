@@ -79,7 +79,20 @@ export const constantRoutes = [
         name: 'demo03',
         component: () => import('@/views/example/demo03'),
         meta: { title: 'demo03', icon: 'form' }
+      },
+      {
+        path: 'demo04',
+        name: 'demo04',
+        component: () => import('@/views/example/demo04'),
+        meta: { title: 'demo04', icon: 'form' }
+      },
+      {
+        path: 'demo05',
+        name: 'demo05',
+        component: () => import('@/views/example/demo05'),
+        meta: { title: 'demo05', icon: 'form' }
       }
+
       // {
       //   path: 'table',
       //   name: 'Table',
