@@ -16,8 +16,8 @@ router.beforeEach(async(to, from, next) => {
   const role = 'admin'
   if (hasToken) {
     next()
-    const accessRoutes = await store.dispatch('permission/generateRoutes', role)
-    router.addRoutes(accessRoutes)
+    // const accessRoutes = await store.dispatch('permission/generateRoutes', role)
+    // router.addRoutes(accessRoutes)
   }
 })
 
