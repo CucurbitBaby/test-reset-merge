@@ -66,13 +66,13 @@ export const constantRoutes = [
         path: 'demo01',
         name: 'demo01',
         component: () => import('@/views/example/demo01'),
-        meta: { title: 'demo01', icon: 'form' }
+        meta: { title: '嵌套导航', icon: 'form' }
       },
       {
         path: 'demo02',
         name: 'demo02',
         component: () => import('@/views/example/demo02'),
-        meta: { title: 'demo02', icon: 'form' }
+        meta: { title: 'input整数', icon: 'form' }
       },
       {
         path: 'demo03',
