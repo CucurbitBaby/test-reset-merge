@@ -66,19 +66,19 @@ export const constantRoutes = [
         path: 'demo01',
         name: 'demo01',
         component: () => import('@/views/example/demo01'),
-        meta: { title: 'demo01', icon: 'form' }
+        meta: { title: '嵌套导航', icon: 'form' }
       },
       {
         path: 'demo02',
         name: 'demo02',
         component: () => import('@/views/example/demo02'),
-        meta: { title: 'demo02', icon: 'form' }
+        meta: { title: 'input整数', icon: 'form' }
       },
       {
         path: 'demo03',
         name: 'demo03',
         component: () => import('@/views/example/demo03'),
-        meta: { title: 'demo03', icon: 'form' }
+        meta: { title: 'el-upload 图片', icon: 'form' }
       },
       {
         path: 'demo04',
@@ -108,18 +108,18 @@ export const constantRoutes = [
     ]
   },
 
-  {
-    path: '/form',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        name: 'Form',
-        component: () => import('@/views/form/index'),
-        meta: { title: 'Form', icon: 'form' }
-      }
-    ]
-  },
+  // {
+  //   path: '/form',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       name: 'Form',
+  //       component: () => import('@/views/form/index'),
+  //       meta: { title: 'Form', icon: 'form' }
+  //     }
+  //   ]
+  // },
 
   // {
   //   path: '/nested',
