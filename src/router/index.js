@@ -78,7 +78,7 @@ export const constantRoutes = [
         path: 'demo03',
         name: 'demo03',
         component: () => import('@/views/example/demo03'),
-        meta: { title: 'demo03', icon: 'form' }
+        meta: { title: 'el-upload 图片', icon: 'form' }
       },
       {
         path: 'demo04',
